@@ -1,0 +1,33 @@
+
+.cont{
+    min-height: 100vh;
+}
+.slika{
+    max-height: 70vh;
+}
+.pic{
+    max-width: 50vh;
+}
+.icon{
+    max-height: 20vh;
+}
+
+
+.visina{
+    min-height: 50vh;
+}
+
+@media screen and (max-width: 992px){
+    .space{
+        margin-bottom: 4vh;
+    }
+    .visina{
+        min-height: 100vh;
+    }
+    .icon{
+        max-height: 30vh;
+    }
+    .separate{
+        margin-top: 3vh;
+    }
+}
